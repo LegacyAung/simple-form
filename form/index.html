@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="./index.js" defer></script>
+  <title>Form</title>
+</head>
+<body>
+  <form action="#" class="form" id="form">
+    <div>
+      <div class="input-div">
+        <label for="username" class="username">Username</label>
+        <i class="fas fa-user username-icon"></i>
+        <input type="text" class= "username" id="username">
+        <i class="fas fa-check-circle correct-icon"></i>
+        <i class="fas fa-exclamation-circle fail-icon"></i>
+        <div class="error"></div>
+    </div>
+
+      <div class="input-div">
+        <label for="email" class="email">Email</label>
+        <i class="fas fa-envelope email-icon"></i>
+        <input type="email" class= "email" id="email">
+        <i class="fas fa-check-circle correct-icon"></i>
+        <i class="fas fa-exclamation-circle fail-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <div class="input-div">
+        <label for="password" class="password">Password</label>
+        <i class="fas fa-lock password-icon"></i>
+        <input type="password" class= "password" id="password">
+        <i class="fas fa-check-circle correct-icon"></i>
+        <i class="fas fa-exclamation-circle fail-icon"></i>
+        <div class="error"></div>
+      </div>
+      <button type='submit' class="submit">Submit</button>
+    </div>
+
+  </form>
+</body>
+</html>
